@@ -166,7 +166,7 @@ function App () {
     <div className='Nav_head'>
       <Routes>
         <Route
-          path='/'
+          path='/ticket-booking'
           element={
             <>
               <Navbar_one />

@@ -49,7 +49,7 @@ function Navigation () {
         <Nav
           className='justify'
           style={{ width: '100%', flexDirection: 'row', paddingLeft: '30px' }}
-          activeKey='/'
+          activeKey='/ticket-booking'
         >
           <Nav.Item className='m-3'>
             <Nav.Link className='text-white' as={Link} to='/movies'>
@@ -83,7 +83,7 @@ function Navigation () {
             paddingLeft: '30px',
             alignItems: 'center'
           }}
-          activeKey='/'
+          activeKey='/ticket-booking'
         >
           <Nav.Item className='m-3'>
             <Nav.Link className='text-white' eventKey='link-1'>

@@ -39,7 +39,7 @@ export default function Bookticket (props) {
       console.log(e2)
       setShowModal(true)
       setTimeout(() => {
-        navigate('/')
+        navigate('/ticket-booking')
       }, 3000)
     }
     let data = {
