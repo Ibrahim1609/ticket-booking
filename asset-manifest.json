@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/ticket-booking/static/css/main.c10f811b.css",
-    "main.js": "/ticket-booking/static/js/main.e6180a50.js",
+    "main.js": "/ticket-booking/static/js/main.2df1edc7.js",
     "static/js/787.9dc7afc2.chunk.js": "/ticket-booking/static/js/787.9dc7afc2.chunk.js",
     "static/media/banner_2.avif": "/ticket-booking/static/media/banner_2.80d981e38a65428f1093.avif",
     "static/media/banner_5.avif": "/ticket-booking/static/media/banner_5.90e4f57ecd443371fad2.avif",
@@ -48,11 +48,11 @@
     "static/media/event_10.avif": "/ticket-booking/static/media/event_10.58f8fc56c5bbba67ff05.avif",
     "index.html": "/ticket-booking/index.html",
     "main.c10f811b.css.map": "/ticket-booking/static/css/main.c10f811b.css.map",
-    "main.e6180a50.js.map": "/ticket-booking/static/js/main.e6180a50.js.map",
+    "main.2df1edc7.js.map": "/ticket-booking/static/js/main.2df1edc7.js.map",
     "787.9dc7afc2.chunk.js.map": "/ticket-booking/static/js/787.9dc7afc2.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.c10f811b.css",
-    "static/js/main.e6180a50.js"
+    "static/js/main.2df1edc7.js"
   ]
 }
