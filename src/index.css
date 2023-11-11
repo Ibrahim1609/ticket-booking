@@ -1,0 +1,80 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing : antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.mbss {
+  display       : flex !important;
+  margin        : 0 !important;
+  flex-direction: column !important;
+  padding-bottom: 0 !important;
+  padding-top   : 0 !important;
+}
+
+.brandSearch {
+  width          : 34.5em;
+  display        : flex;
+  justify-content: space-between;
+  align-items    : center;
+}
+
+.movies-carousel {
+  width       : 100%;
+  margin-top  : 20px;
+  margin-left : auto;
+  margin-right: auto;
+}
+
+.movies-carousel .carousel-indicators {
+  position        : absolute;
+  background-color: #1c161636 !important;
+  bottom          : -40px;
+  left            : 35%;
+  transform       : translateX(-50%);
+  max-inline-size : fit-content;
+  border-radius   : 10px;
+}
+
+/* Custom styles for carousel controls */
+.carousel-control-prev,
+.carousel-control-next {
+  color : #fff !important;
+  width : 6% !important;
+  height: auto !important;
+}
+
+.carousel-control-prev:hover,
+.carousel-control-next:hover {
+  color: white !important;
+}
+
+.carousel-control-prev {
+  left: 4.2em !important;
+}
+
+.carousel-control-next {
+  right: 4.2em !important;
+}
+
+
+.containerSet {
+  width          : 100% !important;
+  display        : flex;
+  justify-content: space-between;
+  padding        : 0px 15px;
+}
+
+.custom-input {
+  border     : 0.4px solid #dee2e6 !important;
+  border-left: hidden !important;
+  box-shadow : none !important;
+}
