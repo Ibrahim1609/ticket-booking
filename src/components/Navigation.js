@@ -16,9 +16,19 @@ function Navigation () {
 
   useEffect(() => {
     // Simulate checking login status (replace with actual logic)
-    const storedUsername = localStorage.getItem('username')
-    if (storedUsername) {
+    const storedUsers = localStorage.getItem('Users')
+    const storedUsername = storedUsers
+      ? JSON.parse(storedUsers)[0].username
+      : undefined
+    const existingUser = localStorage.getItem('username')
+    const newUserSignedUp = localStorage.getItem('newUserSignedUp')
+
+    if (newUserSignedUp && storedUsername) {
+      // If a new user signed up, update the login state
       setLogin(storedUsername)
+    } else if (existingUser) {
+      // If no new user signed up and there's an existing user, update the login state
+      setLogin(existingUser)
     }
   }, [])
 
@@ -27,6 +37,8 @@ function Navigation () {
     if (confirmLogout) {
       // Simulate logout
       localStorage.removeItem('username')
+      localStorage.removeItem('Users')
+      localStorage.removeItem('newUserSignedUp')
       setLogin('Login/SignUp')
       setShowProfileDropdown(false)
     }

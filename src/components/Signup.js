@@ -68,8 +68,6 @@ export default function SignUp ({ setLogin = () => {} }) {
       validateCity() &&
       validateNumber()
 
-      
-
     if (isFormValid) {
       // Store submitted values in the Users array
       const newUser = {
@@ -85,8 +83,10 @@ export default function SignUp ({ setLogin = () => {} }) {
 
       // Store Users array in local storage
       localStorage.setItem('Users', JSON.stringify([...users, newUser]))
+      // Set a flag in local storage to indicate a new user signed up
+      localStorage.setItem('newUserSignedUp', 'true')
       setLogin(username)
-      let path = `/`
+      let path = `/ticket-booking`
       navigate(path)
     }
   }

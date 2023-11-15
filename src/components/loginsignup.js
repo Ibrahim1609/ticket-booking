@@ -3,8 +3,7 @@ import Form from 'react-bootstrap/Form'
 import { useState, useEffect } from 'react'
 import { Link } from 'react-router-dom'
 import UserProfile from './UserProfile'
-import axios from 'axios'
-
+import SignUp from './Signup'
 export default function Login ({ onClose, setLogin }) {
   const [username, setusername] = useState('')
   const [password, setpassword] = useState('')
